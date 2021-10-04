@@ -6,8 +6,16 @@ using namespace std;
 
 int main(){
     // 1. Solicitar el nombre del archivo de entrada Angela
+    ifstream archivoSuez;
+    cin >> " Ingresar archivo: " >> archivo;
+    archivoSuez.open(archivo);
     // 2. Crear 2 listas encadenadas Angela
-    // 3. En una almacenar los datos del Mar Mediterraneo Angela 
+    LinkedList<Entrada> llMarMed;
+    LinkedList<Entrada> llMarRojo;
+    // 3. En una almacenar los datos del Mar Mediterraneo Angela
+    while (archivoSuez >> fecha >> puntoEntrada >> ubi)
+    {
+        
     // 4. En la otra los del Mar Rojo Angela
 
     // 5. Ordenar ascendentemente ambas listas por Ubi + fecha Rositas
